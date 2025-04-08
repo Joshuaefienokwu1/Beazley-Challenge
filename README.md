@@ -37,7 +37,6 @@ This task provisions a basic 3-tier AWS infrastructure, including:
 
 - pip uninstall urllib3 requests -y
 - pip install 'urllib3<2.0' 'requests<2.30' 
-- cd scripts 
 - python3 metadata_fetcher.py               
 - python3 metadata_fetcher.py --key ami-id 
 
